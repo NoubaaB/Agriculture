@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBagricultureModelStoreContainer" CdmEntityContainer="DBagricultureEntities">
+    <EntitySetMapping Name="engrais">
+      <EntityTypeMapping TypeName="DBagricultureModel.engrai">
+        <MappingFragment StoreEntitySet="engrais">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="Taille" ColumnName="Taille" />
+          <ScalarProperty Name="Prix" ColumnName="Prix" />
+          <ScalarProperty Name="Quantite" ColumnName="Quantite" />
+          <ScalarProperty Name="Tarif" ColumnName="Tarif" />
+          <ScalarProperty Name="descript" ColumnName="descript" />
+          <ScalarProperty Name="Date_D__Ajoute" ColumnName="Date D' Ajoute" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Irrigations">
+      <EntityTypeMapping TypeName="DBagricultureModel.Irrigation">
+        <MappingFragment StoreEntitySet="Irrigation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="Taille" ColumnName="Taille" />
+          <ScalarProperty Name="Prix" ColumnName="Prix" />
+          <ScalarProperty Name="Quantite" ColumnName="Quantite" />
+          <ScalarProperty Name="Tarif" ColumnName="Tarif" />
+          <ScalarProperty Name="descript" ColumnName="descript" />
+          <ScalarProperty Name="Date_D__Ajoute" ColumnName="Date D' Ajoute" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pesticides">
+      <EntityTypeMapping TypeName="DBagricultureModel.Pesticide">
+        <MappingFragment StoreEntitySet="Pesticides">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="Taille" ColumnName="Taille" />
+          <ScalarProperty Name="Prix" ColumnName="Prix" />
+          <ScalarProperty Name="Quantite" ColumnName="Quantite" />
+          <ScalarProperty Name="Tarif" ColumnName="Tarif" />
+          <ScalarProperty Name="descript" ColumnName="descript" />
+          <ScalarProperty Name="Date_D__Ajoute" ColumnName="Date D' Ajoute" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="prixes">
+      <EntityTypeMapping TypeName="DBagricultureModel.prix">
+        <MappingFragment StoreEntitySet="prix">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="NomEquip" ColumnName="NomEquip" />
+          <ScalarProperty Name="Prix1" ColumnName="Prix" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

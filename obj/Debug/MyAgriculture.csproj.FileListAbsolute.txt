@@ -1,0 +1,64 @@
+c:\users\bachi\onedrive\documents\visual studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\MyAgriculture.exe.config
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\MyAgriculture.exe
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\MyAgriculture.pdb
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\FluentWPF.dll
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\MaterialDesignColors.dll
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\WpfAnimatedGif.dll
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\WpfAnimatedGif.xml
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.csprojResolveAssemblyReference.cache
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\MainWindow.g.cs
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\App.g.cs
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture_MarkupCompile.cache
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture_MarkupCompile.lref
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\MainWindow.baml
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.g.resources
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.Properties.Resources.resources
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.csproj.GenerateResource.Cache
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.exe
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.pdb
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\AllDataBases.baml
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\AllDataBases.g.cs
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture_Content.g.cs
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\EntityFramework.dll
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\bin\Debug\EntityFramework.xml
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\Ajouter.baml
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\Ajouter.g.cs
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\DeleteAlert.baml
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\DeleteAlert.g.cs
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\edite.baml
+C:\Users\bachi\OneDrive\Documents\Visual Studio 2012\Projects\MyAgriculture\MyAgriculture\obj\Debug\edite.g.cs
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\MyAgriculture.exe.config
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.exe
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.pdb
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\MyAgriculture.exe
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\MyAgriculture.pdb
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\EntityFramework.dll
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\FluentWPF.dll
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\MaterialDesignColors.dll
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\WpfAnimatedGif.dll
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\EntityFramework.xml
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\bin\Debug\WpfAnimatedGif.xml
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.csprojResolveAssemblyReference.cache
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\Ajouter.baml
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\AllDataBases.baml
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\DeleteAlert.baml
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\edite.baml
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\Ajouter.g.cs
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\AllDataBases.g.cs
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\DeleteAlert.g.cs
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\edite.g.cs
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\MainWindow.g.cs
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\App.g.cs
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture_Content.g.cs
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture_MarkupCompile.cache
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture_MarkupCompile.lref
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\MainWindow.baml
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.g.resources
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.Properties.Resources.resources
+C:\Users\bachi\OneDrive\Desktop\ProjectFiles\MyAgriculture\MyAgriculture\obj\Debug\MyAgriculture.csproj.GenerateResource.Cache

@@ -1,0 +1,141 @@
+﻿<Window x:Class="MyAgriculture.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyAgriculture"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:fw="clr-namespace:SourceChord.FluentWPF;assembly=FluentWPF"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        fw:AcrylicWindow.Enabled="True" 
+        fw:AcrylicWindow.ShowTitleBar="False" 
+        Title="Main" Height="500" Width="900" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen">
+
+    <Grid  Height="470" VerticalAlignment="Bottom" >
+        <Grid.BindingGroup>
+            <BindingGroup/>
+        </Grid.BindingGroup>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Name="Slide" Width="150"/>
+            <ColumnDefinition  Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid fw:PointerTracker.Enabled="True" Background="#01FFFFFF">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid Name="grid0" Grid.Row="0" >
+                <Border  >
+                    <Image  MouseEnter="AgricultureImage_MouseEnter" Name="AgricultureImage" Source="Image/Logo_Agriculture_Strategies_600px.png" HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="140"/>
+                </Border>
+
+            </Grid>
+            <Grid Name="grid1" Grid.Row="1" >
+                <StackPanel >
+                    <StackPanel Orientation="Horizontal" >
+                        <Button Foreground="Black" Background="{x:Null}" BorderBrush="{x:Null}">
+                            <materialDesign:PackIcon Kind="Dropbox"/>
+                        </Button>
+                        <TextBlock Text="Gestion Du Stockage" FontSize="12" Margin="10" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <ListViewItem Padding="0" Name="Pesticides" ToolTip="Pesticides" MouseUp="Pesticides_MouseUp" >
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="FlowerTulip" Margin="15"/>
+                            <TextBlock Text="Les Pesticides" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Padding="0" Name="Engrais" ToolTip="Les Engrais" MouseUp="Engrais_MouseUp" >
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="Filter" Margin="15"/>
+                            <TextBlock Text="Les Engrais" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Padding="0" Name="Irrigation" ToolTip="Irrigation Goutte à Goutte" MouseUp="Irrigation_MouseUp">
+                        <StackPanel Orientation="Horizontal" >
+                            <materialDesign:PackIcon Kind="Water" Margin="15"/>
+                            <TextBlock Text="Irrigation" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <StackPanel Orientation="Horizontal" >
+                        <Button Foreground="Black" Background="{x:Null}" BorderBrush="{x:Null}">
+                            <materialDesign:PackIcon Kind="Monitor"/>
+                        </Button>
+                        <TextBlock Text="System" FontSize="12" Margin="10" VerticalAlignment="Center"/>
+                    </StackPanel>
+                    <ListViewItem Padding="1" Name="Statistiques" ToolTip="Les Statistiques">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ChartBar" Margin="15" />
+                            <TextBlock Text="Les Statistiques" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Padding="1" Name="Revenus" ToolTip="Revenus">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="Euro" Margin="15"/>
+                            <TextBlock Text="Revenus" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Padding="1" Name="GFacturation" ToolTip="Gestion de Facturation">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="PaperclipHorizontal" Margin="15" />
+                            <TextBlock Text="Facturation" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </ListViewItem>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <Grid Name="mainGrid" Grid.Column="1" Background="White" Margin="0,0,0,31">
+
+            <StackPanel Name="Footer" HorizontalAlignment="Left" Height="31" Margin="0,439,0,-31" VerticalAlignment="Top" Width="750">
+                <StackPanel.Background>
+                    <LinearGradientBrush EndPoint="450,30" StartPoint="450,0" MappingMode="Absolute">
+                        <LinearGradientBrush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                <RotateTransform Angle="431.565" CenterY="0.5" CenterX="0.5"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </LinearGradientBrush.RelativeTransform>
+                        <GradientStop Offset="1"/>
+                        <GradientStop Color="#FF1586C7"/>
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+            </StackPanel>
+            <Border MouseEnter="mainBorder_MouseEnter" Name="mainBorder" Background="#f8f8f8">
+                <Image Name="MainImage"   Stretch="Uniform" gif:ImageBehavior.AnimatedSource="Image/layers-animat.gif"  HorizontalAlignment="Stretch" Height="439" VerticalAlignment="Top" Width="747" OpacityMask="#FFD41313"  />
+            </Border>
+
+        </Grid>
+        <StackPanel Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="30" Margin="0,-30,0,0" VerticalAlignment="Top" Width="900">
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="450,30" StartPoint="450,0" MappingMode="Absolute">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="431.565" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Offset="1"/>
+                    <GradientStop Color="#FF1586C7"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            <ListViewItem Padding="0 0 0 0" HorizontalAlignment="Right" Name="CloseListViewItem" MouseUp="CloseListViewItem_MouseUp" >
+                <StackPanel  Orientation="Horizontal">
+                    <materialDesign:PackIcon Background="Red" Foreground="White"  Kind="Close" Margin="0 0 0 0" Height="30" Width="30"  />
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem  HorizontalAlignment="Right" Margin="0,-32,30,0" Name="MinimizedListViewItem" MouseUp="MinimizedListViewItem_MouseUp" >
+                <StackPanel  >
+                    <materialDesign:PackIcon  Foreground="White"  Kind="Minus" Height="30" Width="30" />
+                </StackPanel>
+            </ListViewItem>
+        </StackPanel>
+
+    </Grid>
+
+</Window>

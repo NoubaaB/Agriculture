@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBagricultureModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DBagricultureModelStoreContainer">
+    <EntitySet Name="engrais" EntityType="DBagricultureModel.Store.engrais" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Irrigation" EntityType="DBagricultureModel.Store.Irrigation" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Pesticides" EntityType="DBagricultureModel.Store.Pesticides" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="prix" EntityType="DBagricultureModel.Store.prix" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="engrais">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="varchar" MaxLength="255" />
+    <Property Name="Taille" Type="float" />
+    <Property Name="Prix" Type="float" />
+    <Property Name="Quantite" Type="int" />
+    <Property Name="Tarif" Type="float" />
+    <Property Name="descript" Type="varchar(max)" />
+    <Property Name="Date D' Ajoute" Type="date" />
+  </EntityType>
+  <EntityType Name="Irrigation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="varchar" MaxLength="255" />
+    <Property Name="Taille" Type="float" />
+    <Property Name="Prix" Type="float" />
+    <Property Name="Quantite" Type="int" />
+    <Property Name="Tarif" Type="float" />
+    <Property Name="descript" Type="varchar(max)" />
+    <Property Name="Date D' Ajoute" Type="date" />
+  </EntityType>
+  <EntityType Name="Pesticides">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="varchar" MaxLength="255" />
+    <Property Name="Taille" Type="float" />
+    <Property Name="Prix" Type="float" />
+    <Property Name="Quantite" Type="int" />
+    <Property Name="Tarif" Type="float" />
+    <Property Name="descript" Type="varchar(max)" />
+    <Property Name="Date D' Ajoute" Type="date" />
+  </EntityType>
+  <EntityType Name="prix">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NomEquip" Type="varchar" MaxLength="255" />
+    <Property Name="Prix" Type="int" />
+  </EntityType>
+</Schema>

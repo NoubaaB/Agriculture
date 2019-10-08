@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DBagricultureModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="DBagricultureModelStoreContainer">
+          <EntitySet Name="engrais" EntityType="DBagricultureModel.Store.engrais" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Irrigation" EntityType="DBagricultureModel.Store.Irrigation" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Pesticides" EntityType="DBagricultureModel.Store.Pesticides" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="prix" EntityType="DBagricultureModel.Store.prix" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="engrais">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nom" Type="varchar" MaxLength="255" />
+          <Property Name="Taille" Type="float" />
+          <Property Name="Prix" Type="float" />
+          <Property Name="Quantite" Type="int" />
+          <Property Name="Tarif" Type="float" />
+          <Property Name="descript" Type="varchar(max)" />
+          <Property Name="Date D' Ajoute" Type="date" />
+        </EntityType>
+        <EntityType Name="Irrigation">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nom" Type="varchar" MaxLength="255" />
+          <Property Name="Taille" Type="float" />
+          <Property Name="Prix" Type="float" />
+          <Property Name="Quantite" Type="int" />
+          <Property Name="Tarif" Type="float" />
+          <Property Name="descript" Type="varchar(max)" />
+          <Property Name="Date D' Ajoute" Type="date" />
+        </EntityType>
+        <EntityType Name="Pesticides">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nom" Type="varchar" MaxLength="255" />
+          <Property Name="Taille" Type="float" />
+          <Property Name="Prix" Type="float" />
+          <Property Name="Quantite" Type="int" />
+          <Property Name="Tarif" Type="float" />
+          <Property Name="descript" Type="varchar(max)" />
+          <Property Name="Date D' Ajoute" Type="date" />
+        </EntityType>
+        <EntityType Name="prix">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NomEquip" Type="varchar" MaxLength="255" />
+          <Property Name="Prix" Type="int" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBagricultureModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DBagricultureEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="engrais" EntityType="DBagricultureModel.engrai" />
+          <EntitySet Name="Irrigations" EntityType="DBagricultureModel.Irrigation" />
+          <EntitySet Name="Pesticides" EntityType="DBagricultureModel.Pesticide" />
+          <EntitySet Name="prixes" EntityType="DBagricultureModel.prix" />
+        </EntityContainer>
+        <EntityType Name="engrai">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="nom" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+          <Property Name="Taille" Type="Double" />
+          <Property Name="Prix" Type="Double" />
+          <Property Name="Quantite" Type="Int32" />
+          <Property Name="Tarif" Type="Double" />
+          <Property Name="descript" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="Date_D__Ajoute" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Irrigation">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="nom" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+          <Property Name="Taille" Type="Double" />
+          <Property Name="Prix" Type="Double" />
+          <Property Name="Quantite" Type="Int32" />
+          <Property Name="Tarif" Type="Double" />
+          <Property Name="descript" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="Date_D__Ajoute" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="Pesticide">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="nom" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+          <Property Name="Taille" Type="Double" />
+          <Property Name="Prix" Type="Double" />
+          <Property Name="Quantite" Type="Int32" />
+          <Property Name="Tarif" Type="Double" />
+          <Property Name="descript" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="Date_D__Ajoute" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityType Name="prix">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="NomEquip" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+          <Property Name="Prix1" Type="Int32" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBagricultureModelStoreContainer" CdmEntityContainer="DBagricultureEntities">
+          <EntitySetMapping Name="engrais">
+            <EntityTypeMapping TypeName="DBagricultureModel.engrai">
+              <MappingFragment StoreEntitySet="engrais">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nom" ColumnName="nom" />
+                <ScalarProperty Name="Taille" ColumnName="Taille" />
+                <ScalarProperty Name="Prix" ColumnName="Prix" />
+                <ScalarProperty Name="Quantite" ColumnName="Quantite" />
+                <ScalarProperty Name="Tarif" ColumnName="Tarif" />
+                <ScalarProperty Name="descript" ColumnName="descript" />
+                <ScalarProperty Name="Date_D__Ajoute" ColumnName="Date D' Ajoute" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Irrigations">
+            <EntityTypeMapping TypeName="DBagricultureModel.Irrigation">
+              <MappingFragment StoreEntitySet="Irrigation">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nom" ColumnName="nom" />
+                <ScalarProperty Name="Taille" ColumnName="Taille" />
+                <ScalarProperty Name="Prix" ColumnName="Prix" />
+                <ScalarProperty Name="Quantite" ColumnName="Quantite" />
+                <ScalarProperty Name="Tarif" ColumnName="Tarif" />
+                <ScalarProperty Name="descript" ColumnName="descript" />
+                <ScalarProperty Name="Date_D__Ajoute" ColumnName="Date D' Ajoute" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Pesticides">
+            <EntityTypeMapping TypeName="DBagricultureModel.Pesticide">
+              <MappingFragment StoreEntitySet="Pesticides">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nom" ColumnName="nom" />
+                <ScalarProperty Name="Taille" ColumnName="Taille" />
+                <ScalarProperty Name="Prix" ColumnName="Prix" />
+                <ScalarProperty Name="Quantite" ColumnName="Quantite" />
+                <ScalarProperty Name="Tarif" ColumnName="Tarif" />
+                <ScalarProperty Name="descript" ColumnName="descript" />
+                <ScalarProperty Name="Date_D__Ajoute" ColumnName="Date D' Ajoute" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="prixes">
+            <EntityTypeMapping TypeName="DBagricultureModel.prix">
+              <MappingFragment StoreEntitySet="prix">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="NomEquip" ColumnName="NomEquip" />
+                <ScalarProperty Name="Prix1" ColumnName="Prix" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

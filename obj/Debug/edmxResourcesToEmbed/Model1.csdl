@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBagricultureModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBagricultureEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="engrais" EntityType="DBagricultureModel.engrai" />
+    <EntitySet Name="Irrigations" EntityType="DBagricultureModel.Irrigation" />
+    <EntitySet Name="Pesticides" EntityType="DBagricultureModel.Pesticide" />
+    <EntitySet Name="prixes" EntityType="DBagricultureModel.prix" />
+  </EntityContainer>
+  <EntityType Name="engrai">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Taille" Type="Double" />
+    <Property Name="Prix" Type="Double" />
+    <Property Name="Quantite" Type="Int32" />
+    <Property Name="Tarif" Type="Double" />
+    <Property Name="descript" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Date_D__Ajoute" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Irrigation">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Taille" Type="Double" />
+    <Property Name="Prix" Type="Double" />
+    <Property Name="Quantite" Type="Int32" />
+    <Property Name="Tarif" Type="Double" />
+    <Property Name="descript" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Date_D__Ajoute" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Pesticide">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Taille" Type="Double" />
+    <Property Name="Prix" Type="Double" />
+    <Property Name="Quantite" Type="Int32" />
+    <Property Name="Tarif" Type="Double" />
+    <Property Name="descript" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Date_D__Ajoute" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="prix">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="NomEquip" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Prix1" Type="Int32" />
+  </EntityType>
+</Schema>
